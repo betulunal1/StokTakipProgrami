@@ -4,7 +4,7 @@
 Bu proje, aktif olarak satış yapan bir e-ticaret butik sayfasının dinamik ihtiyaçları (ürün çeşitliliği, anlık stok takibi, kritik stok sınırları ve finansal raporlama) göz önünde bulundurularak geliştirilmiş bir masaüstü uygulamasıdır.
 
 ## 🚀 Proje Tanıtım Videosu
-Uygulamanın detaylı sunumunu, özelliklerini ve çalışma simülasyonunu izlemek için aşağıdaki bağlantıya tıklayabilirsiniz:
+Uygulamanın nasıl çalıştığına dair detaylı videosunu Releases kısmından izleyebilirsiniz.
 
 ---
 
