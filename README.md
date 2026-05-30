@@ -24,22 +24,23 @@ Uygulamanın nasıl çalıştığına dair detaylı videosunu Releases kısmınd
 ---
 ---
 
-## ⚙️ Projeyi İndirme ve Çalıştırma Kılavuzu
+## ⚙️ Projeyi İndirme, Kurulum ve Çalıştırma Kılavuzu
 
 Projenin yerel bilgisayarınızda sorunsuz bir şekilde test edilebilmesi için aşağıdaki adımları sırasıyla uygulamanız yeterlidir:
 
-### 1. Adım: Projeyi İndirmek
+### 1. Adım: Projeyi İndirmek ve Ayıklamak
 1. Bu GitHub sayfasının üst kısmında yer alan yeşil renkli **`<> Code`** butonuna tıklayın.
 2. Açılan menüden **`Download ZIP`** seçeneğine basarak tüm proje dosyalarını bilgisayarınıza indirin.
+3. Bilgisayarınıza inen `.zip` dosyasına sağ tıklayıp **"Klasöre Ayıkla"** (Extract) diyerek dosyaları normal bir klasör haline getirin.
 
-### 2. Adım: Klasöre Ayıklamak
-1. Bilgisayarınıza inen sıkıştırılmış `.zip` dosyasına sağ tıklayın.
-2. **"Klasöre Ayıkla"** (Extract) diyerek dosyaları normal bir klasör haline getirin.
+### 2. Adım: Veritabanını Kurmak (SQL Server)
+1. Ayıkladığınız klasörün içerisine girin ve orada bulunan **`stok_program_yedek.sql`** dosyasını *Microsoft SQL Server Management Studio (SSMS)* programı ile açın.
+2. Üst menüde yer alan **`Execute`** (veya klavyeden `F5`) butonuna basarak veritabanı şemasını ve test verilerini kendi SQL Server sisteminize yükleyin.
 
-### 3. Adım: Visual Studio ile Açmak
-1. Ayıkladığınız klasörün içerisine girin.
-2. Klasörün içinde yer alan ve projenin çalıştırıcı anahtarı olan **`Stok_Program.csproj`** uzantılı dosyaya çift tıklayın.
+### 3. Adım: Projeyi Visual Studio ile Açmak
+1. Yine aynı klasörün içinde yer alan ve projenin çalıştırıcı anahtarı olan **`Stok_Program.csproj`** uzantılı dosyaya çift tıklayın.
+2. Proje; tüm formları, tasarımları ve kod mimarisiyle birlikte otomatik olarak *Visual Studio* üzerinde yüklenecektir.
 
-### 4. Adım: Çalıştırma
-* Dosyaya çift tıkladığınızda proje tüm formları, tasarımları ve kod mimarisiyle birlikte otomatik olarak *Visual Studio* üzerinde açılacaktır. 
+### 4. Adım: Bağlantı Cümlesi ve Çalıştırma
+* Kod bloğunda veritabanı bağlantısının kurulduğu alana giderek, `SqlConnection` tanımındaki `Data Source` kısmını kendi yerel SQL Server adınızla (**Server Name**) değiştirin.
 * Üst panelde bulunan **`Start` (Başlat)** butonuna basarak programı test etmeye başlayabilirsiniz.
