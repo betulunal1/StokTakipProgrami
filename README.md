@@ -22,7 +22,24 @@ Uygulamanın detaylı sunumunu, özelliklerini ve çalışma simülasyonunu izle
 4. **Ciro ve Finans Raporu:** Belirli tarih aralıklarına veya gün sonuna göre yapılan toplam satışların ve elde edilen net cironun SQL veritabanından filtrelenerek raporlanması.
 
 ---
+---
 
-## 💾 Kurulum ve Çalıştırma Notu
-* Projenin tıkır tıkır çalışabilmesi için kaynak kodların yanında yer alan `stok_program_yedek.sql` veritabanı dosyasının SQL Server üzerinde yürütülmesi (Execute) gerekmektedir. 
-* Proje içerisindeki `SqlConnection` bağlantı cümlesindeki (Connection String) veri kaynağı alanını kendi yerel SQL Server adınızla güncellemeniz yeterlidir.
+## ⚙️ Projeyi İndirme ve Çalıştırma Kılavuzu
+
+Projenin yerel bilgisayarınızda sorunsuz bir şekilde test edilebilmesi için aşağıdaki adımları sırasıyla uygulamanız yeterlidir:
+
+### 1. Adım: Projeyi İndirmek
+1. Bu GitHub sayfasının üst kısmında yer alan yeşil renkli **`<> Code`** butonuna tıklayın.
+2. Açılan menüden **`Download ZIP`** seçeneğine basarak tüm proje dosyalarını bilgisayarınıza indirin.
+
+### 2. Adım: Klasöre Ayıklamak
+1. Bilgisayarınıza inen sıkıştırılmış `.zip` dosyasına sağ tıklayın.
+2. **"Klasöre Ayıkla"** (Extract) diyerek dosyaları normal bir klasör haline getirin.
+
+### 3. Adım: Visual Studio ile Açmak
+1. Ayıkladığınız klasörün içerisine girin.
+2. Klasörün içinde yer alan ve projenin çalıştırıcı anahtarı olan **`Stok_Program.csproj`** uzantılı dosyaya çift tıklayın.
+
+### 4. Adım: Çalıştırma
+* Dosyaya çift tıkladığınızda proje tüm formları, tasarımları ve kod mimarisiyle birlikte otomatik olarak *Visual Studio* üzerinde açılacaktır. 
+* Üst panelde bulunan **`Start` (Başlat)** butonuna basarak programı test etmeye başlayabilirsiniz.
